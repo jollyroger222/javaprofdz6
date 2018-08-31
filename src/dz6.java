@@ -1,9 +1,11 @@
 import java.util.Arrays;
 import java.sql.*;
 import java.util.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
-
-public class Lesson6 {
+public class dz6 {
     private static Connection connection;
     private static Statement statement;
 
